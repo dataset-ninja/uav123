@@ -70,9 +70,7 @@ PAPER: Optional[Union[str, List[str], Dict[str, str]]] = (
     "https://www.researchgate.net/publication/308278377_A_Benchmark_and_Simulator_for_UAV_Tracking"
 )
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
-    "GitHub": "some_link_to_repo_if_exists"
-}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Matthias Mueller", "Neil Smith", "Bernard Ghanem"]

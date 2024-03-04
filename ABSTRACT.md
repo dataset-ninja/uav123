@@ -44,7 +44,7 @@ The UAV123 dataset encompasses a diverse array of scenes, ranging from urban lan
 
 | Attr | Description                                                                       |
 |------|-----------------------------------------------------------------------------------|
-| ARC  | ***Aspect Ratio Change***: the fraction of ground truth aspect ratio in the first frame and at least one subsequent frame is outside the range [0.5, 2]. |
+| ARC  | ***aspect ratio change***: the fraction of ground truth aspect ratio in the first frame and at least one subsequent frame is outside the range [0.5, 2]. |
 | BC   | ***background clutter***: the background near the target has similar appearance as the target. |
 | CM   | ***camera motion***: abrupt motion of the camera.                                       |
 | FM   | ***fast motion***: motion of the ground truth bounding box is larger than 20 pixels between two consecutive frames. |
