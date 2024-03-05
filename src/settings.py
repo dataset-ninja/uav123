@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "UAV123"
 PROJECT_NAME_FULL: str = "UAV123 Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -24,7 +24,7 @@ LICENSE: License = License.Unknown()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Domain.DroneInspection(),
 ]
-CATEGORY: Category = Category.Aerial(extra=Category.Drones())
+CATEGORY: Category = Category.Drones()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -103,7 +103,7 @@ SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
     ],
     "__POSTTEXT__": "Additionally, images marked with its ***sequence*** and ***uav20l*** tag",
 }
-TAGS: Optional[List[str]] = None
+TAGS: Optional[List[str]] = ["simulation"]
 
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
